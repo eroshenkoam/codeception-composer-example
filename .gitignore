@@ -43,3 +43,6 @@
 /frontend/tests-output
 
 /go-api/pkg
+
+vendor
+_output
