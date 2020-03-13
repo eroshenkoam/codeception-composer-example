@@ -3,5 +3,10 @@
         "php": ">=7.3",
         "allure-framework/allure-codeception": "~1.4.3",
         "codeception/codeception": "3.1.2"
+    },
+    "scripts": {
+        "test": [
+            "codecept run"
+        ]
     }
 }
