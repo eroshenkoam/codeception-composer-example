@@ -2,6 +2,7 @@
 
 use Codeception\Example;
 use Yandex\Allure\Adapter\Model\TestCase;
+use Yandex\Allure\Adapter\Annotation\AllureId;
 use Yandex\Allure\Adapter\Annotation\Title;
 use Yandex\Allure\Adapter\Annotation\Description;
 use Yandex\Allure\Adapter\Annotation\TestCaseId;
@@ -17,6 +18,7 @@ use Yandex\Allure\Adapter\Annotation\Stories;
 class PageCest
 {
     /**
+     * @AllureId("123")
      * @Title("Test link title")
      * @Issues("SSS-1111")
      * @TestCaseId("23")
